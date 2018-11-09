@@ -1,0 +1,15 @@
+compiler.driver = 'gcc'
+compiler.c_compiler = false
+compiler.cxx_compiler = false
+stackprotector.value = true
+minmacosxsdk.value = false
+zlib.value = true
+zlib.include_path = false
+sdl.value = true
+sdl.use_pkgconfig = true
+sdl.use_sdlconfig = false
+sdl.use_winlib = 0
+freetype.value = true
+freetype.use_pkgconfig = true
+freetype.use_ftconfig = false
+freetype.use_winlib = 0

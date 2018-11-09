@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="src"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src">
+				<Option output="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/src" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/."/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/tl"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/json-parser"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/md5"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/pnglite"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/wavpack"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/server"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/editor"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entities"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/mastersrv"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/tools"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/versionsrv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src/fast">
+				<Option output="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/src" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/."/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/tl"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/json-parser"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/md5"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/pnglite"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/wavpack"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/server"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/editor"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entities"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/mastersrv"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/tools"/>
+					<Add directory="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/versionsrv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/color.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/detect.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/math.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/system.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/system.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/tl/algorithm.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/tl/allocator.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/tl/array.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/tl/base.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/tl/range.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/tl/sorted_array.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/tl/string.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/tl/threading.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/base/vmath.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/backend_sdl.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/backend_sdl.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/client.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/client.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/friends.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/friends.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/graphics_threaded.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/graphics_threaded.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/input.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/input.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/keynames.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/serverbrowser.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/serverbrowser.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/serverbrowser_entry.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/serverbrowser_fav.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/serverbrowser_fav.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/serverbrowser_filter.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/serverbrowser_filter.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/sound.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/sound.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/client/text.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/config.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/console.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/demo.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/editor.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/engine.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/json-parser/json.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/json-parser/json.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/md5/md5.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/md5/md5.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/pnglite/pnglite.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/pnglite/pnglite.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/wavpack/bits.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/wavpack/float.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/wavpack/metadata.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/wavpack/unpack.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/wavpack/wavpack.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/wavpack/words.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/wavpack/wputils.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/adler32.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/compress.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/crc32.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/crc32.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/deflate.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/deflate.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/infback.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/inffast.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/inffast.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/inffixed.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/inflate.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/inflate.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/inftrees.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/inftrees.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/trees.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/trees.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/uncompr.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/zconf.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/zlib.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/zutil.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/external/zlib/zutil.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/friends.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/graphics.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/input.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/kernel.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/keys.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/map.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/masterserver.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/message.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/server.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/server/register.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/server/register.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/server/server.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/server/server.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/serverbrowser.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/compression.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/compression.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/config.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/config.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/config_variables.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/console.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/console.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/datafile.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/datafile.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/demo.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/demo.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/econ.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/econ.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/engine.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/filecollection.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/filecollection.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/huffman.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/huffman.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/jobs.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/jobs.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/kernel.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/linereader.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/linereader.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/map.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/mapchecker.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/mapchecker.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/masterserver.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/memheap.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/memheap.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/message.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/netban.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/netban.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/network.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/network.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/network_client.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/network_conn.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/network_console.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/network_console_conn.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/network_server.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/network_token.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/packer.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/packer.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/protocol.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/ringbuffer.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/ringbuffer.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/snapshot.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/snapshot.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/shared/storage.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/sound.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/storage.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/engine/textrender.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/animstate.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/animstate.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/component.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/binds.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/binds.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/broadcast.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/broadcast.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/camera.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/camera.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/chat.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/chat.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/console.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/console.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/controls.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/controls.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/countryflags.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/countryflags.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/damageind.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/damageind.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/debughud.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/debughud.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/effects.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/effects.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/emoticon.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/emoticon.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/flow.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/flow.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/hud.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/hud.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/items.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/items.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/killmessages.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/killmessages.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/mapimages.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/mapimages.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/maplayers.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/maplayers.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/menus.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/menus.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/menus_browser.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/menus_callback.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/menus_demo.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/menus_ingame.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/menus_popups.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/menus_settings.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/menus_start.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/motd.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/motd.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/nameplates.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/nameplates.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/particles.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/particles.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/players.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/players.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/scoreboard.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/scoreboard.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/skins.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/skins.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/sounds.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/sounds.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/spectator.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/spectator.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/voting.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/components/voting.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/gameclient.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/gameclient.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/lineinput.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/lineinput.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/localization.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/localization.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/render.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/render.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/render_map.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/ui.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/client/ui.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/collision.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/collision.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/editor/auto_map.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/editor/auto_map.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/editor/editor.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/editor/editor.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/editor/io.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/editor/layer_game.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/editor/layer_quads.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/editor/layer_tiles.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/editor/popups.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/gamecore.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/gamecore.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/layers.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/layers.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/mapitems.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/alloc.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entities/character.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entities/character.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entities/flag.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entities/flag.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entities/laser.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entities/laser.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entities/pickup.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entities/pickup.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entities/projectile.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entities/projectile.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entity.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/entity.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/eventhandler.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/eventhandler.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamecontext.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamecontext.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamecontroller.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamecontroller.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes/ctf.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes/ctf.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes/dm.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes/dm.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes/lms.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes/lms.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes/mod.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes/mod.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes/sur.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes/sur.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes/tdm.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gamemodes/tdm.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gameworld.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/gameworld.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/player.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/server/player.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/tuning.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/variables.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/version.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/game/voting.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/mastersrv/mastersrv.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/mastersrv/mastersrv.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/osxlaunch/server.m">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/tools/crapnet.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/tools/fake_server.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/tools/map_resave.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/tools/map_version.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/tools/packetgen.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/versionsrv/mapversions.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/versionsrv/versionsrv.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/versionsrv/versionsrv.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/home/matteo/Documents/Matteo_Private_Docs/Games/teeworlds/teeworlds-master/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
