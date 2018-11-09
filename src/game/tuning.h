@@ -38,9 +38,9 @@ MACRO_TUNING_PARAM(GrenadeSpeed, grenade_speed, 1500.0f)
 MACRO_TUNING_PARAM(GrenadeLifetime, grenade_lifetime, 4.0f)
 
 MACRO_TUNING_PARAM(LaserReach, laser_reach, 2000.0f)
-MACRO_TUNING_PARAM(LaserBounceDelay, laser_bounce_delay, 150)
-MACRO_TUNING_PARAM(LaserBounceCost, laser_bounce_cost, 100)
-MACRO_TUNING_PARAM(LaserBounceNum, laser_bounce_num, 10)
+MACRO_TUNING_PARAM(LaserBounceDelay, laser_bounce_delay, 100)
+MACRO_TUNING_PARAM(LaserBounceCost, laser_bounce_cost, 50)
+MACRO_TUNING_PARAM(LaserBounceNum, laser_bounce_num, 3)
 
 MACRO_TUNING_PARAM(PlayerCollision, player_collision, 1)
 MACRO_TUNING_PARAM(PlayerHooking, player_hooking, 1)
