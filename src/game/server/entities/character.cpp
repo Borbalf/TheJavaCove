@@ -7,6 +7,8 @@
 #include <game/server/gamecontroller.h>
 #include <game/server/player.h>
 
+#include <stdio.h>
+
 #include "character.h"
 #include "laser.h"
 #include "projectile.h"
@@ -347,7 +349,7 @@ void CCharacter::FireWeapon()
 		case WEAPON_SHOTGUN:
 		{
 
-			for(int i = 0; i <= 7; ++i)
+			for(int i = 0; i <= 8; ++i)
 			{
 				float Spreading[] = {-0.2f, -0.12f, -0.11f, -0.070f, -0.050f, 0, 0.050f, 0.070f, 0.11f, 0.12f, 0.2f};
 				float a = angle(Direction);
@@ -361,9 +363,11 @@ void CCharacter::FireWeapon()
 					vec2(cosf(a), sinf(a))*Speed,
 					(int)(Server()->TickSpeed()*GameServer()->Tuning()->m_ShotgunLifetime),
 					g_pData->m_Weapons.m_Shotgun.m_pBase->m_Damage, false, 0, -1, WEAPON_SHOTGUN);
+				if (i%3==0)
+					GameServer()->CreateSound(m_Pos, SOUND_SHOTGUN_FIRE);
 			}
 
-			GameServer()->CreateSound(m_Pos, SOUND_SHOTGUN_FIRE);
+			//GameServer()->CreateSound(m_Pos, SOUND_SHOTGUN_FIRE);
 		} break;
 
 		case WEAPON_GRENADE:
@@ -373,7 +377,7 @@ void CCharacter::FireWeapon()
 				ProjStartPos,
 				Direction,
 				(int)(Server()->TickSpeed()*GameServer()->Tuning()->m_GrenadeLifetime),
-				/*g_pData->m_Weapons.m_Grenade.m_pBase->m_Damage*/8, true, 0, SOUND_GRENADE_EXPLODE, WEAPON_GRENADE);
+				g_pData->m_Weapons.m_Grenade.m_pBase->m_Damage, true, 0, SOUND_GRENADE_EXPLODE, WEAPON_GRENADE);
 
 			GameServer()->CreateSound(m_Pos, SOUND_GRENADE_FIRE);
 		} break;
@@ -405,20 +409,21 @@ void CCharacter::FireWeapon()
 
 	if(!m_ReloadTimer) {
         if(m_ActiveWeapon == WEAPON_GUN) {
-            m_ReloadTimer = 125 * Server()->TickSpeed() / 1000;
+            	m_ReloadTimer = g_pData->m_Weapons.m_aId[m_ActiveWeapon].m_Firedelay * Server()->TickSpeed() / 1000;
         }
         else if(m_ActiveWeapon == WEAPON_LASER) {
-            m_ReloadTimer = 450 * Server()->TickSpeed() / 1000;
-            if (rand()%100 < 74)
-                m_aWeapons[m_ActiveWeapon].m_Ammo++;
+            	m_ReloadTimer = g_pData->m_Weapons.m_aId[m_ActiveWeapon].m_Firedelay * Server()->TickSpeed() / 1000;
+            	if (rand()%100 < 50) {
+                	m_aWeapons[m_ActiveWeapon].m_Ammo++;
+	    	}
         }
         else if(m_ActiveWeapon == WEAPON_SHOTGUN) {
-            m_ReloadTimer = 750 * Server()->TickSpeed() / 1000;
+            	m_ReloadTimer = g_pData->m_Weapons.m_aId[m_ActiveWeapon].m_Firedelay * Server()->TickSpeed() / 1000;
         }
         else if(m_ActiveWeapon == WEAPON_GRENADE) {
-            m_ReloadTimer = 800 * Server()->TickSpeed() / 1000;
+            	m_ReloadTimer = g_pData->m_Weapons.m_aId[m_ActiveWeapon].m_Firedelay * Server()->TickSpeed() / 1000;
         } else {
-			m_ReloadTimer = g_pData->m_Weapons.m_aId[m_ActiveWeapon].m_Firedelay * Server()->TickSpeed() / 1000;
+		m_ReloadTimer = g_pData->m_Weapons.m_aId[m_ActiveWeapon].m_Firedelay * Server()->TickSpeed() / 1000;
 		}
 	}
 }
